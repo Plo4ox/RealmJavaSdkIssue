@@ -8,7 +8,7 @@ import org.junit.runner.RunWith
 @RunWith(AndroidJUnit4::class)
 class LibClassToBeTestedTest {
     @Test
-    fun testTwoPlusTwo() {
+    fun testOnePlusOne() {
         assertEquals(2, LibClassToBeTested().onePlusOne())
     }
 }
